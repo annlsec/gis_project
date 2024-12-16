@@ -1,4 +1,6 @@
 # GIS Final Project
+View this project: https://annlsec.github.io/gis_project/
+
 ## Description
 Analysis of the Relationship Between Natural Resources and Conflicts Using GIS
 
