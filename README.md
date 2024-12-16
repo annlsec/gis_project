@@ -12,17 +12,17 @@ The repository is organized as follows:
 │   ├── conflict_data_22_24.csv       # Dataset containing conflict data (2022-2024)
 │   ├── global_power_plant_database.csv  # Dataset of global power plant locations
 ├── docs/                         # Documentation and HTML outputs
-│   ├── final_3.html              # Main Quarto HTML output summarizing the project (MAIN FILE)
+│   ├── index.html              # Main Quarto HTML output summarizing the project (MAIN FILE)
 │   ├── conflict_clusters_map.html   # Interactive map visualizing conflict clusters
 │   ├── resources_clusters_map.html  # Interactive map visualizing resource clusters
-│   └── final_3_files/               # Supporting files for HTML output (plots, assets)
-├── final_3.qmd               # Quarto manuscript containing the project code and text (MAIN FILE)
+│   └── index_files/               # Supporting files for HTML output (plots, assets)
+├── index.qmd               # Quarto manuscript containing the project code and text (MAIN FILE)
 ```
 
 ## How to Use the Files
 - **Main Files:**
-   - `final_3.html`: the **primary output of the project**. It contains a comprehensive summary of the analysis, including visualizations and results. Open this file in a web browser for a complete view of the project.
-   - `final_3.qmd`: the **Quarto manuscript that generates `final_3.html`**. It includes all the code, narrative, and visualizations. Use this file to reproduce the analysis or make updates.
+   - `index.html`: the **primary output of the project**. It contains a comprehensive summary of the analysis, including visualizations and results. Open this file in a web browser for a complete view of the project.
+   - `index.qmd`: the **Quarto manuscript that generates `final_3.html`**. It includes all the code, narrative, and visualizations. Use this file to reproduce the analysis or make updates.
 
 - **Other Files:**
   - data/: Contains datasets used for analysis.
@@ -32,17 +32,17 @@ The repository is organized as follows:
   - docs/: Includes HTML outputs and supporting files.
     - `conflict_clusters_map.html`: An interactive map visualizing conflict clusters. Open in a web browser to explore clusters interactively.
     - `resources_clusters_map.html`: An interactive map visualizing resource clusters. Open in a web browser for exploration.
-    - `final_3_files/`: Contains supporting files for the HTML outputs, such as plots and other visual elements.
+    - `index_files/`: Contains supporting files for the HTML outputs, such as plots and other visual elements.
 
 
 ### Instructions for the Project:
 
 1. **Open the Main Output**:
-  - View the main analysis by opening `final_3.html` in your web browser.
+  - View the main analysis by opening `index.html` in your web browser.
   - This file contains all key findings, visualizations, and explanations.
 
 2. **Reproduce the Analysis**:
-   - Run `final_3.qmd` using Quarto to generate the final_3.html file.
+   - Run `index.qmd` using Quarto to generate the `index.html` file.
    - This ensures all code and results are reproducible.
 
 3.	**View Supporting Files**:
