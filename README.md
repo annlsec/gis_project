@@ -10,13 +10,12 @@ The repository is organized as follows:
 ├── LICENSE                       # License information for the project
 ├── data/                         # Datasets used in the analysis
 │   ├── conflict_data_22_24.csv       # Dataset containing conflict data (2022-2024)
-│   ├── global_power_plant_database.csv  # Dataset of global power plant locations
-├── docs/                         # Documentation and HTML outputs
-│   ├── index.html              # Main Quarto HTML output summarizing the project (MAIN FILE)
-│   ├── conflict_clusters_map.html   # Interactive map visualizing conflict clusters
-│   ├── resources_clusters_map.html  # Interactive map visualizing resource clusters
-│   └── index_files/               # Supporting files for HTML output (plots, assets)
-├── index.qmd               # Quarto manuscript containing the project code and text (MAIN FILE)
+│   └── global_power_plant_database.csv  # Dataset of global power plant locations
+├── index.html                    # Main Quarto HTML output summarizing the project (MAIN FILE)
+├── conflict_clusters_map.html    # Interactive map visualizing conflict clusters
+├── resources_clusters_map.html   # Interactive map visualizing resource clusters
+├── index_files/                  # Supporting files for HTML output (plots, assets)
+└── index.qmd                     # Quarto manuscript containing the project code and text (MAIN FILE)
 ```
 
 ## How to Use the Files
@@ -44,6 +43,3 @@ The repository is organized as follows:
 2. **Reproduce the Analysis**:
    - Run `index.qmd` using Quarto to generate the `index.html` file.
    - This ensures all code and results are reproducible.
-
-3.	**View Supporting Files**:
-   - Check the data/ folder for raw data and the docs/ folder for additional visualizations.
