@@ -1,4 +1,4 @@
-# GIS Final Project
+# GIS Project
 View this project: https://annlsec.github.io/gis_project/
 
 ## Description
