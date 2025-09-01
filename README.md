@@ -1,47 +1,56 @@
-# GIS Project
-View this project: https://annlsec.github.io/gis_project/
+# Geographic Information System Project
+[🌎 View Project Website Here 🌎](https://annlsec.github.io/gis_project/)  
 
-## Description
-Analysis of the Relationship Between Natural Resources and Conflicts Using GIS
+## Overview  
+This project analyzes the relationship between **natural resources and conflict events** using geospatial methods. By combining conflict data (2022–2024) with global power plant locations, it applies clustering and spatial autocorrelation techniques (e.g., Moran’s I) to identify geographic patterns of conflict near resource sites.  
 
-## File Structure
-The repository is organized as follows:
+The analysis demonstrates skills in:  
+- **Data wrangling and preprocessing** (CSV datasets of conflicts and resources).  
+- **Geospatial analysis** (conflict clustering, spatial autocorrelation).  
+- **Visualization** (interactive HTML maps, reproducible outputs).  
+- **Reproducible workflows** (Quarto `.qmd` to generate a complete analysis pipeline).  
+
+
+---
+
+## Repository Structure 
+
 ```
 .
 ├── README.md                     # Project overview and usage instructions
-├── LICENSE                       # License information for the project
-├── data/                         # Datasets used in the analysis
-│   ├── conflict_data_22_24.csv       # Dataset containing conflict data (2022-2024)
-│   └── global_power_plant_database.csv  # Dataset of global power plant locations
-├── index.html                    # Main Quarto HTML output summarizing the project (MAIN FILE)
-├── conflict_clusters_map.html    # Interactive map visualizing conflict clusters
-├── resources_clusters_map.html   # Interactive map visualizing resource clusters
-├── index_files/                  # Supporting files for HTML output (plots, assets)
-└── index.qmd                     # Quarto manuscript containing the project code and text (MAIN FILE)
+├── LICENSE                       
+├── data/                         # Input datasets
+│   ├── conflict_data_22_24.csv             # Conflict data (2022-2024)
+│   └── global_power_plant_database.csv     # Global power plant locations
+├── index.html                    # Main project output (analysis + visuals)
+├── conflict_clusters_map.html    # Interactive map of conflict clusters
+├── resources_clusters_map.html   # Interactive map of resource clusters
+├── index_files/                  # Supporting files for HTML output
+├── index.qmd                     # Quarto manuscript (code + narrative + visuals)
+└── code.qmd                      # Code-only version for preview on GitHub
 ```
 
-## How to Use the Files
-- **Main Files:**
-   - `index.html`: the **primary output of the project**. It contains a comprehensive summary of the analysis, including visualizations and results. Open this file in a web browser for a complete view of the project.
-   - `index.qmd`: the **Quarto manuscript that generates `final_3.html`**. It includes all the code, narrative, and visualizations. Use this file to reproduce the analysis or make updates.
+---
 
-- **Other Files:**
-  - data/: Contains datasets used for analysis.
-    - `conflict_data_22_24.csv`: Raw conflict data covering the years 2022-2024. Use this file for analyzing conflict events.
-    - `global_power_plant_database.csv`: Dataset of global power plant locations and details. Use this for resource-related analysis.
+## How to Explore  
 
-  - docs/: Includes HTML outputs and supporting files.
-    - `conflict_clusters_map.html`: An interactive map visualizing conflict clusters. Open in a web browser to explore clusters interactively.
-    - `resources_clusters_map.html`: An interactive map visualizing resource clusters. Open in a web browser for exploration.
-    - `index_files/`: Contains supporting files for the HTML outputs, such as plots and other visual elements.
+- **Main Output:**  
+  - Open `index.html` in a browser to view the full analysis with explanations and visualizations.  
+  - Or visit the [rendered project site](https://annlsec.github.io/gis_project/).  
 
+- **Code:**  
+  - `index.qmd`: Full Quarto manuscript (code + narrative).  
+  - `code.qmd`: Code-only file (easy preview on Github).  
 
-### Instructions for the Project:
+- **Interactive Visualizations:**  
+  - `conflict_clusters_map.html`: Explore spatial clusters of conflict events.  
+  - `resources_clusters_map.html`: Explore geographic distributions of resource sites.  
 
-1. **Open the Main Output**:
-  - View the main analysis by opening `index.html` in your web browser.
-  - This file contains all key findings, visualizations, and explanations.
+---
 
-2. **Reproduce the Analysis**:
-   - Run `index.qmd` using Quarto to generate the `index.html` file.
-   - This ensures all code and results are reproducible.
+## Reproducing the Analysis  
+1. Clone the repository.  
+2. Open `index.qmd` in [Quarto](https://quarto.org/).  
+3. Render the file to generate `index.html` and supporting outputs.  
+
+This ensures all results are fully reproducible.  
